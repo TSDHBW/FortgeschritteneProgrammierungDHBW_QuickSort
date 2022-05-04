@@ -9,6 +9,8 @@ public class MVCController {
     private MVCView view;
     private MVCModel model;
 
+    int[] arr = {5, 10, 2, 19, 15};
+
     public MVCController() {
         //Erzeugung des User Interface durch ein Objekt der Klasse MVCView
         this.view = new MVCView(this);
@@ -47,5 +49,7 @@ public class MVCController {
         return zutat;
 
     }
+
+
 
 }
